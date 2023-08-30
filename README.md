@@ -1,2 +1,7 @@
-# vimeo_api_curl_php
-This is  what seems we need to do for stripe subscription  We have to pick user subscriptionID, make an API call to stripe and update the price for that customer.  So that he is charged different pricing. Based on article below it seems possible.  https://www.paidmembershipspro.com/modifying-payment-subscriptions-in-stripe/
+# Integrating your website with Vimeo API to upload & manage videos
+
+# Code will perform the following tasks
+
+- Load the Vimeo iFrame form through API, and Vimeo creates a blank Vimeo video to start with.
+- Check the Status of the uploaded video
+- Delete the video if it's not available in 30min, to keep the account clean.
