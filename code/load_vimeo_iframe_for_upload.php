@@ -1,6 +1,6 @@
 <?php
-  // Create a Vimdeo Form through a API call
-	// Vimeo generates a iFrame form which facilitates the upload later
+  // Create a Vimdeo Form through an API call
+	// Vimeo generates an iFrame form which facilitates the upload of later
 		
 	$curl = curl_init();
 	curl_setopt_array($curl, array(
