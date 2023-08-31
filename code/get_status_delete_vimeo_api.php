@@ -32,7 +32,7 @@ foreach($records as $record)
 	$difference = abs($endtimestamp - $starttimestamp)/60;
     //echo $record['status']."====".$vimeo_id."=====".$record['created_time']."=====hours====".$difference."=====";
 
-   / check status and time set to 20min, delete if video is not available after 20min 
+   / check status and time set to 20min, delete if video is not available(means not uploaded fully) after 20min 
     if($record['status']!="available" && $difference>20){
             $curl = curl_init();
         	curl_setopt_array($curl, array(
